@@ -1,0 +1,106 @@
+:root {
+  /* Primary Brand - Soft Blue & Vibrant Purple */
+  --brand-primary: #6366F1;
+  --brand-primary-hover: #4F46E5;
+  --brand-secondary: #8B5CF6;
+  --brand-dark: #312E81;
+  --brand-light: #EEF2FF;
+  --brand-gradient: linear-gradient(135deg, #6366F1 0%, #8B5CF6 50%, #EC4899 100%);
+  --brand-gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);
+  --brand-gradient-hero: linear-gradient(135deg, #4F46E5 0%, #7C3AED 50%, #C026D3 100%);
+
+  /* Positive / Savings - Mint & Emerald */
+  --color-positive: #10B981;
+  --color-positive-dark: #059669;
+  --color-positive-light: #D1FAE5;
+  --color-positive-bg: #ECFDF5;
+  --color-positive-glow: rgba(16, 185, 129, 0.25);
+  --gradient-positive: linear-gradient(135deg, #10B981 0%, #059669 100%);
+
+  /* Spending / Outflow - Coral & Warm Orange */
+  --color-spending: #F97316;
+  --color-coral: #FF6B6B;
+  --color-spending-dark: #EA580C;
+  --color-spending-light: #FFEDD5;
+  --color-spending-bg: #FFF7ED;
+  --gradient-spending: linear-gradient(135deg, #FF6B6B 0%, #F97316 100%);
+
+  /* Attention / Reminders - Warm Sunburst Amber & Gold */
+  --color-warning: #F59E0B;
+  --color-warning-dark: #D97706;
+  --color-warning-light: #FEF3C7;
+  --color-warning-bg: #FFFBEB;
+  --gradient-warning: linear-gradient(135deg, #F59E0B 0%, #EAB308 100%);
+
+  /* Playful Accent - Bubblegum Pink */
+  --color-pink: #EC4899;
+  --color-pink-dark: #DB2777;
+  --color-pink-light: #FCE7F3;
+  --color-pink-bg: #FDF2F8;
+  --gradient-pink: linear-gradient(135deg, #EC4899 0%, #F43F5E 100%);
+
+  /* Category Specific Colors */
+  --cat-food: #F97316;
+  --cat-food-bg: #FFF7ED;
+  --cat-shopping: #EC4899;
+  --cat-shopping-bg: #FDF2F8;
+  --cat-transport: #3B82F6;
+  --cat-transport-bg: #EFF6FF;
+  --cat-entertainment: #8B5CF6;
+  --cat-entertainment-bg: #F5F3FF;
+  --cat-household: #06B6D4;
+  --cat-household-bg: #ECFEFF;
+  --cat-health: #10B981;
+  --cat-health-bg: #ECFDF5;
+  --cat-education: #6366F1;
+  --cat-education-bg: #EEF2FF;
+  --cat-bills: #EF4444;
+  --cat-bills-bg: #FEF2F2;
+
+  /* Surfaces & Neutrals */
+  --bg-app: #F8FAFC;
+  --bg-sidebar: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-card-tinted: #F8FAFC;
+  --bg-card-highlight: #F1F5F9;
+  --bg-glass: rgba(255, 255, 255, 0.88);
+  --bg-overlay: rgba(15, 23, 42, 0.4);
+
+  /* Borders & Dividers */
+  --border-subtle: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-focus: #6366F1;
+
+  /* Text Colors */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --text-inverse: #FFFFFF;
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px -1px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 8px 24px -4px rgba(15, 23, 42, 0.06), 0 2px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 16px 36px -6px rgba(15, 23, 42, 0.08), 0 4px 12px -3px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 24px 48px -12px rgba(99, 102, 241, 0.18);
+  --shadow-colorful-primary: 0 12px 28px -6px rgba(99, 102, 241, 0.35);
+  --shadow-colorful-positive: 0 12px 28px -6px rgba(16, 185, 129, 0.3);
+  --shadow-colorful-coral: 0 12px 28px -6px rgba(249, 115, 22, 0.3);
+  --shadow-colorful-pink: 0 12px 28px -6px rgba(236, 72, 153, 0.3);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 26px;
+  --radius-2xl: 32px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
